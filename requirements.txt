@@ -1,0 +1,12 @@
+# Phase 1 (MVP)
+streamlit>=1.35
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+faster-whisper>=1.0.3
+av>=11,<19
+yt-dlp>=2024.8.6
+google-genai>=1.0
+pytest>=8.0
+opencv-python-headless>=4.9,<5
+# Optional speaker diarization: `pip install pyannote.audio`, then set HUGGINGFACE_TOKEN.
